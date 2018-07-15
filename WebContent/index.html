@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>RBC-Online Examination Portal</title>
+
+<link href="login-box.css" rel="stylesheet" type="text/css" />
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+   
+    background-image: url(images/lightbackground.jpg);
+
+    height: 100%; 
+
+   and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+
+<body>
+<div class="bg">
+     <img src="images/rbc logo.png" alt="Title Image" align="right" height="140" width="140" style="position: absolute; top: 0; left: 20" />
+    <form name="LoginForm" id="LoginForm" method="post" action="AuthenticateLogin">
+
+<div style="padding: 100px 0 0 330px;">
+
+
+<div id="login-box">
+
+<H3>RBC Employee Login</H3>
+Please enter the Employee  LanId and password to enter the Begin test
+<br />
+<br />
+<div id="login-box-name" style="margin-top:30px;">Lanid:</div>
+
+<div id="login-box-field" style="margin-top:20px;">
+    <input name="Lanid" class="form-login" title="Lanid"/></div>
+    
+<div id="login-box-name" >Password:</div>
+
+<div id="login-box-field">
+    <input name="Password" type="password" class="form-login"/></div>
+    
+<br />
+<span class="login-box-options">
+<a href="register.jsp" ">New Employee? Register Here</a></span>
+<br />
+<br />
+
+   <a href="BeginTest.jsp"> <img src="images/login-btn.png" width="100" height="40" style="margin-left:80px;" /></a>
+
+</div>
+ 
+</div>
+</form>
+</div>
+
+
+</body>
+</html>
