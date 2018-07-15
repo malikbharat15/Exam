@@ -2,25 +2,25 @@
 <web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
     <servlet>
         <servlet-name>AuthenticateLogin</servlet-name>
-        <servlet-class>com.connect.security.AuthenticateLogin</servlet-class>
+        <servlet-class>com.examination.portal.AuthenticateLogin</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RegisterNewUser</servlet-name>
-        <servlet-class>com.connect.security.RegisterNewUser</servlet-class>
+        <servlet-class>com.examination.portal.RegisterNewUser</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>StartNewExam</servlet-name>
-        <servlet-class>com.connect.security.StartNewExam</servlet-class>
+        <servlet-class>com.examination.portal.StartNewExam</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RunExam</servlet-name>
-        <servlet-class>com.connect.security.RunExam</servlet-class>
+        <servlet-class>com.examination.portal.RunExam</servlet-class>
     </servlet>
   
 
     <servlet>
         <servlet-name>submitExamination</servlet-name>
-        <servlet-class>com.connect.security.submitExamination</servlet-class>
+        <servlet-class>com.examination.portal.submitExamination</servlet-class>
     </servlet>
 
     <servlet-mapping>
